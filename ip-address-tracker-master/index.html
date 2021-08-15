@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <script src="https://kit.fontawesome.com/e7e3b5ac2c.js" crossorigin="anonymous"></script>
+  
+  <title>Frontend Mentor | IP Address Tracker</title>
+
+  <link rel="stylesheet" href="style.css">
+
+   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+   integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+   crossorigin=""/>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+</head>
+<body>
+
+  <h1 class="header">IP Address Tracker </h1>
+
+  <img src="images/pattern-bg.png" class="pattern-img" alt="">
+
+<form >
+
+    <input class="search" type="text" value="" placeholder="Search for any IP address or domain">
+    <button class="submit" ><i class="fas fa-chevron-right"></i> </button>
+
+</form>
+
+
+
+
+   <div id="mapid"> </div>
+
+<div class="info">
+
+    <div class="column">
+      <h2>  IP ADDRESS</h2>
+      
+      &nbsp;
+      
+      <span class="common ip"> </span>
+      
+    </div>
+
+        <div class="vl"></div>
+    
+
+    <div class="column">
+        <h2> LOCATION</h2>
+      
+        &nbsp;
+      
+        <span class="common location"> </span>
+    </div>
+
+        <div class="vl"></div>
+
+
+    <div class="column">
+        <h2>TIMEZONE</h2>
+
+        &nbsp;
+
+      
+        <span class="common timezone"> </span>
+    </div>
+
+        <div class="vl"></div>
+
+    <div class="column">
+      
+        <h2> ISP</h2>
+
+        &nbsp;  
+
+    
+        <span class="common isp"> </span>
+    </div class="column">
+
+
+
+    </div>
+
+  </div>
+
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Aryan Desale</a>.
+  </div>
+
+
+</body>
+
+
+
+ <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+   integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+   crossorigin=""></script>
+
+   <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+   <script src="main.js"></script>
+
+
+</html>
